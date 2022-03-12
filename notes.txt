@@ -1,0 +1,11 @@
+simple
+=============
+* fibonnaci
+* ganjil - genap
+* segitiga
+* segitiga terbalik
+* fizbuzz
+* polyndrom
+* prima
+* permutasi
+* kombinasi
