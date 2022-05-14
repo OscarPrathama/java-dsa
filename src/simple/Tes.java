@@ -4,17 +4,15 @@ public class Tes {
     
     public static void main(String[] args) {
         
-        segitiga();
+        System.out.println(fibonacci(5));
     
     }
 
-    static void segitiga(){
-        for (int i = 1; i <= 5; i++) {
-            for (int j = i; j <= 5; j++) {
-                System.out.print(j);
-            }
-            System.out.println();
+    static int fibonacci(int numbers){
+        if (numbers <= 1){
+            return 1;
         }
+        return fibonacci(numbers * (numbers - 1));
     }
 
 }
