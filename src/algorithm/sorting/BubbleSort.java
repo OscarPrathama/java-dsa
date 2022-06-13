@@ -50,7 +50,7 @@ public class BubbleSort {
             System.out.print(number + ", ");
         }
 
-        int length = numbers.length - 1;
+        // int length = numbers.length - 1;
         System.out.println();
         System.out.println();
     }
